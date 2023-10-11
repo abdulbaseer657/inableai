@@ -1,0 +1,266 @@
+.navbar {
+  height: 80px;
+  width: 100%;
+  border: 1px solid rgb(243, 241, 241);
+}
+.navbar a {
+  font-weight: 700;
+}
+.navbar .btn {
+  height: 45px !important;
+  width: auto;
+  background-color: black !important;
+}
+
+
+.navbar .btn a {
+  color: white;
+  text-decoration: none;
+}
+.navbar .btn a:hover {
+  transition: 250ms;
+  color: grey !important;
+}
+.container1 {
+  height: 600px;
+  width: 42%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .container1 {
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+}
+.container1 h1 {
+  font-family: sans-serif;
+  font-weight: 800;
+  margin-top: 9rem;
+}
+.container1 p {
+  margin: 1rem;
+  font-family: sans-serif;
+  color: rgb(85, 85, 85);
+}
+
+.container1 .h1_ {
+  margin: 1rem;
+}
+
+.container1 .btn2 {
+  height: 55px !important;
+  width: auto !important;
+  background-color: black !important;
+  margin: 2rem;
+}
+.container1 a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: white;
+}
+.container2 {
+  height: 400px;
+  width: 42%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .container2 {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+}
+.container2 h1 {
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+.container2 p {
+  margin: 1rem;
+  font-family: sans-serif;
+  color: rgb(85, 85, 85);
+}
+
+.container2 .h1_ {
+  margin: 1rem;
+}
+
+.container3 {
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+.plans_head {
+  margin: 14px;
+  padding: 14px;
+  height: 100%;
+  width: 30%;
+}
+.plans_head h2 {
+  font-weight: bold;
+  font-size: xx-large !important;
+}
+.plans_head p {
+  font-family: sans-serif;
+  margin-top: 1rem;
+  font-size: medium !important;
+  color: rgb(135, 134, 134) !important;
+}
+.card h3 {
+  font-family: sans-serif;
+  font-weight: bold !important;
+  font-size: x-large !important;
+}
+.card p {
+  font-family: sans-serif;
+  margin-top: 1rem;
+  font-size: medium !important;
+  color: rgb(135, 134, 134) !important;
+}
+.plans_info {
+  margin: 14px;
+  padding: 14px;
+  height: 100%;
+  width: 70%;
+}
+@media (max-width: 768px) {
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .plans_head {
+    margin: 14px;
+    padding: 14px;
+    height: 100%;
+    width: 100%;
+  }
+  .plans_info {
+    margin: 4px;
+    padding: 4px;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.container3 .btn {
+  height: 55px !important;
+  width: 150px !important;
+  font-weight: 600;
+  color: white !important;
+  background-color: blue !important;
+  border: 1px solid blue !important;
+}
+.container3 .btn a {
+  text-decoration: none;
+  color: white;
+}
+.container3 .btn:hover {
+  background-color: rgb(15, 15, 152) !important;
+  border: 1px solid rgb(15, 15, 152) !important;
+  border: 1px solid grey;
+}
+
+.container4 {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 4rem;
+}
+
+.container4 h1 {
+  font-family: sans-serif;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+.container4 p {
+  margin: 1rem;
+  font-family: sans-serif;
+  color: rgb(85, 85, 85);
+}
+
+.container4 .h1_ {
+  margin: 1rem;
+}
+
+.container4 a {
+  text-decoration: none;
+  color: white;
+}
+.container4 .btn {
+  margin: 1rem;
+  height: 45px !important;
+  width: auto;
+  background-color: black !important;
+}
+.container4 .btn a {
+  color: white;
+  text-decoration: none;
+}
+.container4 .btn a:hover {
+  transition: 250ms;
+  color: grey !important;
+}
+.footer a {
+  font-weight: 700;
+  margin: 1rem;
+  padding: 1rem;
+}
+.footer_bottom {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.footer_bottom p {
+  color: grey !important;
+}
+.container4 h1 {
+  color: black !important;
+  font-weight: 700 !important;
+}
+.img_clock {
+  margin-left: 3px !important;
+}
+.img_checked {
+  margin-left: 3px !important;
+}
+.img_lock {
+  margin-left: 3px !important;
+}
+.img_msg {
+  margin-left: 3px !important;
+}
+
+.card {
+  border: none !important;
+  margin-bottom: 4rem !important;
+}
+.backed_by {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem !important;
+}
+.backed_by h3 {
+  font-weight: bold;
+}
